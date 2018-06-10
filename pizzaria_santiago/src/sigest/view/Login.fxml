@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import org.controlsfx.control.textfield.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" opacity="0.5" prefHeight="393.0" prefWidth="493.0" style="-fx-background-color: #ffebd9;" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="sigest.controller.LoginController">
+    <stylesheets>
+        <URL value="@/sigest/content/sigest.css" />
+    </stylesheets>
+   <children>
+      <Pane layoutX="140.0" layoutY="93.0" prefHeight="225.0" prefWidth="195.0" style="-fx-background-color: #ffd5b0;">
+         <children>
+            <CustomTextField layoutX="14.0" layoutY="44.0" prefWidth="150.0" promptText="Nome" />
+            <CustomTextField layoutX="14.0" layoutY="88.0" prefWidth="150.0" promptText="Senha" />
+            <JFXButton layoutX="14.0" layoutY="131.0" prefWidth="150.0" style="-fx-background-color: #ffa04d;" text="ENTRAR" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
