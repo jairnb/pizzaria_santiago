@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import jfxtras.labs.scene.control.window.*?>
+<?import impl.org.controlsfx.skin.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sigest.controller.LoginController">
+    <stylesheets>
+        <URL value="@/sigest/content/sigest.css" />
+    </stylesheets>
+   <children>
+      <ImageView pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/cookie.jpg" />
+         </image>
+      </ImageView>
+      <Window blendMode="LIGHTEN" layoutX="541.0" layoutY="159.0" opacity="0.9" prefHeight="350.0" prefWidth="300.0" style="-fx-background-color: #ffebd9;" title="" />
+      <Label layoutX="555.0" layoutY="272.0" prefHeight="25.0" prefWidth="50.0" text="Nome">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
