@@ -9,12 +9,12 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" opacity="0.5" prefHeight="393.0" prefWidth="493.0" style="-fx-background-color: #ffebd9;" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="sigest.controller.LoginController">
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="300.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sigest.controller.LoginController">
     <stylesheets>
         <URL value="@/sigest/content/sigest.css" />
     </stylesheets>
    <children>
-      <Pane layoutX="140.0" layoutY="93.0" prefHeight="225.0" prefWidth="195.0" style="-fx-background-color: #ffd5b0;">
+      <Pane opacity="0.4" prefHeight="500.0" prefWidth="300.0" style="-fx-background-color: #ffd5b0;">
          <children>
             <CustomTextField layoutX="14.0" layoutY="44.0" prefWidth="150.0" promptText="Nome" />
             <CustomTextField layoutX="14.0" layoutY="88.0" prefWidth="150.0" promptText="Senha" />
